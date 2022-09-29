@@ -7,7 +7,7 @@ import { useStateProvider } from '../utils/StateProvider'
 const Navbar = () => {
 
   const [{ userInfo }] = useStateProvider();
-  console.log({userInfo}, 'from navbar')
+  
   return (
     <Container>
       <div className="search__bar">
@@ -75,7 +75,7 @@ const Container = styled.div`
        padding: 0.2rem;
        border-radius: 1rem;
        color: #c7c5c5;
-       
+
     }
   }
  }
