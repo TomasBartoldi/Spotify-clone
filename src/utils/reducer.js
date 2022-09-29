@@ -4,6 +4,7 @@ import { StateContext } from "./StateProvider";
 export const initialState = {
     token: null,
     playlists: [],
+    userInfo: null,
 };
 
 const reducer = (state, action) => {
@@ -19,6 +20,12 @@ const reducer = (state, action) => {
                 ...state,
                 playlists: action.playlists,
 
+            }
+        }
+        case reducerCases.SET_USER: {
+            return {
+                ...state,
+                userInfo: action.userInfo,
             }
         }
         default:
