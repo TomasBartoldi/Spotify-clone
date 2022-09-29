@@ -6,7 +6,7 @@ const Login = () => {
   const handleClick = () => {
     const clientId = 'ad2c8430ddce465fa48e30e5d2aeaf27';
     const redirectUrl = 'http://localhost:3000/';
-    const apiUrl = 'https://account.spotify.com/authorize';
+    const apiUrl = 'https://accounts.spotify.com/authorize';
     const scope = [
     'user-read-email',
     'user-read-private',
@@ -20,7 +20,7 @@ const Login = () => {
 
     window.location.href = `${apiUrl}?client_id=${clientId}&redirect_uri=${redirectUrl}&scope=${scope.join(" ")}&response_type=token&show_daialog=true`;
 
-    /* https://account.spotify.com/authorize?client_id=ad2c8430ddce465fa48e30e5d2aeaf27&redirect_uri=http://localhost:3000/&scope=user-read-email%20user-read-private%20user-read-playback-state%20user-modify-playback-state%20user-read-currently-playing%20user-read-playback-position%20user-top-read%20user-read-recently-played&response_type=token&show_daialog=true */
+    /* https://accounts.spotify.com/authorize?client_id=ad2c8430ddce465fa48e30e5d2aeaf27&redirect_uri=http://localhost:3000/&scope=user-read-email%20user-read-private%20user-read-playback-state%20user-modify-playback-state%20user-read-currently-playing%20user-read-playback-position%20user-top-read%20user-read-recently-played&response_type=token&show_daialog=true */
 
   }
 
