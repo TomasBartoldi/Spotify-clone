@@ -84,7 +84,7 @@ const Body = () => {
                 selectedPlaylist.tracks.map(({
                   id, 
                   name, 
-                  artist, 
+                  artists, 
                   image, 
                   duration, 
                   album, 
@@ -102,7 +102,7 @@ const Body = () => {
                           </div>
                          <div className="info">
                              <span className="name">{name}</span>
-                             <span>{artist}</span>
+                             <span>{artists}</span>
                          </div>                        
                         </div>
                         <div className="col">
