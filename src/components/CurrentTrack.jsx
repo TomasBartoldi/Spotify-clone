@@ -26,12 +26,14 @@ const CurrentTrack = () => {
             artists: item.artists.map((artist)=> artist.name),
             image: item.album.images[2].url,
         }
-        /* console.log('esto esta sonando: ', currentlyPlaying) */
-       }
+       // console.log('esto esta sonando: ', currentlyPlaying)
        dispatch({type: reducerCases.SET_PLAYING, currentlyPlaying})
+       }
     }
     getCurrentTrack()
  }, [token, dispatch]);
+
+ console.log('esto esta sonando: ', currentlyPlaying)
 
   return (
     <Container>
