@@ -162,19 +162,19 @@ const Container = styled.div`
       top: 15vh;
       padding: 1rem 3 rem;
       transition: 0.3s ease-in-out;
-      color: white;
+      color: #dddcdc;
       background-color: ${({ headerBackground }) => 
       headerBackground ? '#000000dc' : 'none'}; 
     }
     .tracks{
-      margin: 0.2rem;
+      margin: 0 2rem;
       display: flex;
       flex-direction: column;
       margin-botton: 5rem;
       .row{
         padding: 0.5rem 1rem;
         display: grid;
-        grid-template-columns: 0.3fr 3.1fr 1.9fr 0.1fr;
+        grid-template-columns: 0.3fr 3.1fr 2fr 0.1fr;
         &:hover{
           background-color: rgba(0, 0, 0, 0.7);
         }
@@ -184,6 +184,7 @@ const Container = styled.div`
           color: #dddcdc;
           img {
             height: 40px;
+            width: 40px;
           }
         }
         .detail{
