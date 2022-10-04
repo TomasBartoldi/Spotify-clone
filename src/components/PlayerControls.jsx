@@ -83,6 +83,7 @@ export const PlayerControls = () => {
         <div className="repeat">
             <FiRepeat />
         </div>
+        
     </Container>
   )
 }
