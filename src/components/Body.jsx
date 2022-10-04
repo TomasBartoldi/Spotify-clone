@@ -170,7 +170,7 @@ const Container = styled.div`
       margin: 0 2rem;
       display: flex;
       flex-direction: column;
-      margin-botton: 5rem;
+      margin-bottom: 5rem;
       .row{
         padding: 0.5rem 1rem;
         display: grid;
@@ -201,6 +201,6 @@ const Container = styled.div`
 
 `;
 
-//1:40:52
+
 
 export default Body

@@ -28,6 +28,8 @@ const CurrentTrack = () => {
         }
        // console.log('esto esta sonando: ', currentlyPlaying)
        dispatch({type: reducerCases.SET_PLAYING, currentlyPlaying})
+       }else{
+        dispatch({type: reducerCases.SET_PLAYING, currentlyPlaying: null})
        }
     }
     getCurrentTrack()
