@@ -14,7 +14,7 @@ const Body = ({headerBackground}) => {
 
      const getInitialPlaylist = async () => {
 
-      console.log(selectedPlaylistId)
+      // console.log(selectedPlaylistId)
         const response = await axios.get(`https://api.spotify.com/v1/playlists/${selectedPlaylistId}`, 
             {
             headers: {
