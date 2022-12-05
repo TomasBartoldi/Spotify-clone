@@ -7,7 +7,7 @@ const Login = () => {
 
     //fc85e46555134792beb5b06bb6f460af 
     const clientId = 'ad2c8430ddce465fa48e30e5d2aeaf27';  
-    const redirectUrl = 'http://localhost:3000/';
+    const redirectUrl = 'https://spotify-clone-tb.vercel.app/';
     const apiUrl = 'https://accounts.spotify.com/authorize';
     const scope = [
     'user-read-email',
